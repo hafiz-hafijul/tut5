@@ -1,0 +1,27 @@
+.button{
+    background-color: #50546F;
+    color: #fff;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all .3s;
+}
+
+.button:hover{
+    box-shadow: 0 0 5px #000;
+}
+
+.button button{
+    border: none;
+    outline: none;
+    font-size: 40px;
+    background-color: inherit;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.button .MuiSvgIcon-root{
+    font-size: 32px;
+}
